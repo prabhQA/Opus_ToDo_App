@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16084" started-at="2021-04-10T07:43:18Z" finished-at="2021-04-10T07:43:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16084" started-at="2021-04-10T07:43:18Z" finished-at="2021-04-10T07:43:34Z">
+      <class name="com.tests.ToDo_test">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.tests.ToDo_test@1010382]" name="initialization" is-config="true" duration-ms="11679" started-at="2021-04-10T07:43:18Z" finished-at="2021-04-10T07:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="toDo_E2E_Test()[pri:0, instance:com.tests.ToDo_test@1010382]" name="toDo_E2E_Test" duration-ms="2283" started-at="2021-04-10T07:43:30Z" finished-at="2021-04-10T07:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDo_E2E_Test -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.ToDo_test@1010382]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-04-10T07:43:32Z" finished-at="2021-04-10T07:43:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toDo_E2E_Test status=SUCCESS method=ToDo_test.toDo_E2E_Test()[pri:0, instance:com.tests.ToDo_test@1010382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.tests.ToDo_test@1010382]" name="quit" is-config="true" duration-ms="1979" started-at="2021-04-10T07:43:32Z" finished-at="2021-04-10T07:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.tests.ToDo_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
